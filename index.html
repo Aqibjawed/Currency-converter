@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <span>Currency</span>
+            <span>Converter</span>
+        </div>
+        <form>
+            <div class="amount">
+                <label for="amt">Enter Amount</label>
+                <input type="number" id="amt"  placeholder="1">
+            </div>
+            <div class="middle">
+                <div class="sectionfrom">
+                    <p>From</p>
+                    <div class="select-container-from">
+                        <img src="https://flagcdn.com/48x36/us.png">
+                        <select name="from">
+                        </select>
+                    </div>
+                </div>
+                <div class="symbol-container">
+                    <div class="fa-solid fa-arrow-right-arrow-left symbol">
+                </div>
+                </div>
+                <div class="sectionto">
+                    <p>To</p>
+                    <div class="select-container-to">
+                        <img src="https://flagcdn.com/48x36/in.png">
+                        <select name="to">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="result">
+            </div>
+            <div class="btn">
+                <button value="Get Exchange Value">Get Exchange Value</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./list.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

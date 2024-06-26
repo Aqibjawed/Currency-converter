@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    /* background-color: #333a2f;     */
+    background-color: #414a3d;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 0;
+    border: 1px solid #282828;
+    background-color: #ebeddf;
+    border-radius: 2rem;
+    /* width: 50%; */
+    max-width: 400px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+    font-size: 1.5rem;
+}
+.amount input{
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background: transparent;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+.select-container-from, .select-container-to{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #282828;
+    border-radius: 0.5rem;
+}
+.select-container-from img, .select-container-to img{
+    height: 30px;
+    padding: 0.2rem;
+}
+.select-container-from select, .select-container-to select{
+    font-size: 1.15rem;
+    background: transparent;
+    border: none;
+}
+.select-container-from select:focus, .select-container-to select:focus{
+    border: none;
+}
+.symbol{
+    margin: 15px;
+    padding-top: 75px;
+}
+
+.result{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn{
+    width: fit-content;
+    margin: 20px auto;
+}
+.btn button{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #414a3d;
+    border: 2px solid black;
+    color: #ebeddf;
+    padding: 5px 12px;
+    font-weight:lighter;
+    cursor: pointer;
+}
